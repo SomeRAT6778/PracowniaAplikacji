@@ -22,5 +22,16 @@ void main() {
     double fahraheit = 1.8*stopnie+32.0;
     System.out.println("na dworze jest "+fahraheit+"stopni Fahrenheita");
 
+    //zadanie5
+    System.out.println("wypisz 3 boki trojkonta 2w centymetrach");
+    Scanner sc1 =new Scanner(System.in);
+    Scanner sc2 =new Scanner(System.in);
+    Scanner sc3 =new Scanner(System.in);
+    int bok1 = sc1.nextInt();
+    int bok2 = sc2.nextInt();
+    int bok3 = sc3.nextInt();
+    int obw = bok1+bok2+bok3;
+    System.out.println("obwód trójkontu wynosi "+obw+" cm");
+
 
 }

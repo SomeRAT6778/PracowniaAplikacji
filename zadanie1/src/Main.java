@@ -32,6 +32,15 @@ void main() {
     int bok3 = sc3.nextInt();
     int obw = bok1+bok2+bok3;
     System.out.println("obwód trójkontu wynosi "+obw+" cm");
+    //zadanie6
+    Scanner sc4 =new Scanner(System.in);
+    Scanner sc5 =new Scanner(System.in);
+    Scanner sc6 =new Scanner(System.in);
+    int slowo1 = sc4.nextInt();
+    int slowo2 = sc5.nextInt();
+    int slowo3 = sc6.nextInt();
+    System.out.println(slowo3+slowo1+slowo2);
+
 
 
 }
